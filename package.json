@@ -1,0 +1,19 @@
+{
+  "name": "Naija-Techverse-DataBot",
+  "version": "1.0.0",
+  "description": "A simple WhatsApp bot that automates data purchase.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Naija Techverse",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.18.4",
+    "puppeteer": "^21.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
